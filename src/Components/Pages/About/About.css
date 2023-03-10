@@ -1,0 +1,15 @@
+.About {
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+.About p {
+    font-weight: 400;
+    font-size: var(--font-medium);
+}
+
+.About p::first-letter {
+    font-size: var(--font-large);
+    color: var(--secondary-color);
+}

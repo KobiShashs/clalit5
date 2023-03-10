@@ -1,0 +1,25 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 30px; */
+    padding-top: 30px;
+    background-color: var(--background-color);
+}
+
+.Menu>* {
+    margin: 10px;
+
+}
+
+.Menu a {
+    color: var(--primary-color);
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.Menu a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.SocialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocialMedia>* {
+    margin: 20px;
+
+}
+
+.SocialMedia a {
+    color: var(--secondary-color);
+}
+
+.SocialMedia a:visited {
+    color: var(--secondary-color);
+}

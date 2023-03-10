@@ -1,0 +1,30 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+.Header>h1 {
+    font-size: var(--font-large);
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .Header {
+        background-color: royalblue;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Header {
+        background-color: gold;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
