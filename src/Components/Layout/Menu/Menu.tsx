@@ -13,6 +13,7 @@ function Menu(): JSX.Element {
             <Link to={"components"}>Component Types</Link>
             <Link to={"about"}>About</Link>
             <Link to={"lifecycle"}>Lifecycle</Link>
+            <Link to={"lifecycle2"}>Lifecycle2</Link>
 
         </div>
     );
