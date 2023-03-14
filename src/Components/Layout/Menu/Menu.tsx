@@ -14,6 +14,7 @@ function Menu(): JSX.Element {
             <Link to={"about"}>About</Link>
             <Link to={"lifecycle"}>Lifecycle</Link>
             <Link to={"lifecycle2"}>Lifecycle2</Link>
+            <Link to={"rick-and-morty"}>Rick and Morty</Link>
 
         </div>
     );

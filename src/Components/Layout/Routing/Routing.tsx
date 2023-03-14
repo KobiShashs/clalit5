@@ -7,6 +7,7 @@ import ComponentTypes from "../../Pages/ComponentTypes/ComponentTypes";
 import Page404 from "../../Pages/Page404/Page404";
 import Lifecycle from "../../Pages/Lifecycle/Lifecycle";
 import Lifecycle2 from "../../Pages/Lifecycle2/Lifecycle2";
+import RickAndMorty from "../../Pages/RickAndMorty/RickAndMorty";
 
 function Routing(): JSX.Element {
     return (
@@ -19,6 +20,7 @@ function Routing(): JSX.Element {
                 <Route path="/components" element={<ComponentTypes/>} />
                 <Route path="/lifecycle" element={<Lifecycle/>} />
                 <Route path="/lifecycle2" element={<Lifecycle2/>} />
+                <Route path="/rick-and-morty" element={<RickAndMorty/>} />
                 <Route path="*" element={<Page404/>} />
             </Routes>
         </div>
