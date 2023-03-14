@@ -5,6 +5,7 @@ import Home from "../../Pages/Home/Home";
 import About from "../../Pages/About/About";
 import ComponentTypes from "../../Pages/ComponentTypes/ComponentTypes";
 import Page404 from "../../Pages/Page404/Page404";
+import Lifecycle from "../../Pages/Lifecycle/Lifecycle";
 
 function Routing(): JSX.Element {
     return (
@@ -15,6 +16,7 @@ function Routing(): JSX.Element {
                 <Route path="/home" element={<Home/>} />
                 <Route path="/about" element={<About/>} />
                 <Route path="/components" element={<ComponentTypes/>} />
+                <Route path="/lifecycle" element={<Lifecycle/>} />
                 <Route path="*" element={<Page404/>} />
             </Routes>
         </div>

@@ -12,6 +12,7 @@ function Menu(): JSX.Element {
             <Link to={"home"}>Home 🏘️</Link>
             <Link to={"components"}>Component Types</Link>
             <Link to={"about"}>About</Link>
+            <Link to={"lifecycle"}>Lifecycle</Link>
 
         </div>
     );

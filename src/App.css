@@ -31,3 +31,7 @@
     grid-column: 12 span;
     grid-row: 1 span;
 }
+
+.App button {
+    font-size: 28px;
+}

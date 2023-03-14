@@ -5,7 +5,6 @@
     align-items: center;
     /* padding: 30px; */
     padding-top: 30px;
-    background-color: var(--background-color);
 }
 
 .Menu>* {
@@ -14,7 +13,6 @@
 }
 
 .Menu a {
-    color: var(--primary-color);
     font-weight: 300;
     text-decoration: none;
 }

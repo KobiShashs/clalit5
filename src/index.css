@@ -1,11 +1,21 @@
 :root {
     --primary-color: #aaaaaa;
-    --secondary-color:#267cd2;
+    --secondary-color: #267cd2;
     --background-color: #000000;
 
     --font-small: 10px;
     --font-medium: 22px;
     --font-large: 36px;
+}
+
+.dark-mode {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+
+.light-mode {
+    color: var(--background-color);
+    background-color: var(--primary-color);
 }
 
 body {
